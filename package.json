@@ -1,0 +1,59 @@
+{
+    "name": "prometheusworkana",
+    "version": "1.0.0",
+    "description": "PrometheusWorkana is a powerful Chrome extension that provides users with the knowledge to pass Workana certification tests.",
+    "type": "module",
+    "main": "background.js",
+    "keywords": [
+        "certification",
+        "test",
+        "workana",
+        "ai",
+        "automation",
+        "chromium",
+        "scraper",
+        "scrapping",
+        "prometheus",
+        "prometheusworkana",
+        "davcavalcante",
+        "david c cavalcante",
+        "fjallstoppur",
+        "takk innovate studio",
+        "takk8is"
+    ],
+    "author": {
+        "name": "David C Cavalcante (Fjallstoppur) <fjallstoppur@proton.me>",
+        "organization": "Takk Innovate Studio"
+    },
+    "license": "CC-BY-4.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Takk8IS/PrometheusWorkana.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Takk8IS/PrometheusWorkana/issues"
+    },
+    "homepage": "https://github.com/Takk8IS/PrometheusWorkana#readme",
+    "scripts": {
+        "start": "node --no-deprecation prometheusworkana.js",
+        "test": "jest",
+        "postinstall": "npm run start"
+    },
+    "dependencies": {
+        "body-parser": "^1.20.2",
+        "cors": "^2.8.5",
+        "express": "^4.19.2",
+        "express-rate-limit": "^7.4.0",
+        "fs": "^0.0.1-security",
+        "groq-sdk": "^0.5.0",
+        "helmet": "^7.1.0",
+        "https": "^1.0.0",
+        "node-cache": "^5.1.2"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    }
+}
